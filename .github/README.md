@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kms`](https://www.npmjs.com/package/@aws-sdk/client-kms/v/3.36.1).
+[`@aws-sdk/client-kms`](https://www.npmjs.com/package/@aws-sdk/client-kms/v/3.37.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.36.1/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.37.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-xIoOI5YV/YQbf3TVBptBfyjhr96VCblTEqYLEZHWDh2n4xJjYyhreqGm/rL/fu7K
+sha384-YDRU7MA+q8vW92s/AN718ZbUzxfhchYFxAMNL3Jo7uOGrhYek8MnXq6vTp3A5hDZ
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.36.1/index.min.mjs"
+            "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.37.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.36.1/index.min.mjs": "sha384-xIoOI5YV/YQbf3TVBptBfyjhr96VCblTEqYLEZHWDh2n4xJjYyhreqGm/rL/fu7K"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.37.0/index.min.mjs": "sha384-YDRU7MA+q8vW92s/AN718ZbUzxfhchYFxAMNL3Jo7uOGrhYek8MnXq6vTp3A5hDZ"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.36.1/index.min.mjs"
+                        "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.37.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.36.1/index.min.mjs": "sha384-xIoOI5YV/YQbf3TVBptBfyjhr96VCblTEqYLEZHWDh2n4xJjYyhreqGm/rL/fu7K"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.37.0/index.min.mjs": "sha384-YDRU7MA+q8vW92s/AN718ZbUzxfhchYFxAMNL3Jo7uOGrhYek8MnXq6vTp3A5hDZ"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.36.1`)
+* Always pin to a specific version (`@3.37.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kms/blob/refs/tags/3.36.1/LICENSE
+https://github.com/cloud-sdk-builds/client-kms/blob/refs/tags/3.37.0/LICENSE
 ```
 
 ---
