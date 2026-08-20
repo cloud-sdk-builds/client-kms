@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-kms`](https://www.npmjs.com/package/@aws-sdk/client-kms/v/3.1113.0).
+[`@aws-sdk/client-kms`](https://www.npmjs.com/package/@aws-sdk/client-kms/v/3.1114.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-kms - [https://cloud-sdk-builds.github.io/?sdk=client-kms](https://cloud-sdk-builds.github.io/?sdk=client-kms)
-- @aws-sdk/client-kms v3.1113.0 - [https://cloud-sdk-builds.github.io/?sdk=client-kms&version=3.1113.0](https://cloud-sdk-builds.github.io/?sdk=client-kms&version=3.1113.0)
+- @aws-sdk/client-kms v3.1114.0 - [https://cloud-sdk-builds.github.io/?sdk=client-kms&version=3.1114.0](https://cloud-sdk-builds.github.io/?sdk=client-kms&version=3.1114.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1113.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1114.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-4qSMmen0qyd1VcyUMs2KUcHGOLD802xjC9FBaeGWhA9Pw0yG0WOQD/yH8Ou/0K4i
+sha384-l1uO3MDwB9fToEuG3R3/0HtUfF/zPaXA0JdaYBUaVUWBSpWrn5kxUrPfhdt2a4Is
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1113.0/index.min.mjs"
+            "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1114.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1113.0/index.min.mjs": "sha384-4qSMmen0qyd1VcyUMs2KUcHGOLD802xjC9FBaeGWhA9Pw0yG0WOQD/yH8Ou/0K4i"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1114.0/index.min.mjs": "sha384-l1uO3MDwB9fToEuG3R3/0HtUfF/zPaXA0JdaYBUaVUWBSpWrn5kxUrPfhdt2a4Is"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1113.0/index.min.mjs"
+                        "@aws-sdk/client-kms": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1114.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1113.0/index.min.mjs": "sha384-4qSMmen0qyd1VcyUMs2KUcHGOLD802xjC9FBaeGWhA9Pw0yG0WOQD/yH8Ou/0K4i"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-kms@3.1114.0/index.min.mjs": "sha384-l1uO3MDwB9fToEuG3R3/0HtUfF/zPaXA0JdaYBUaVUWBSpWrn5kxUrPfhdt2a4Is"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1113.0`)
+* Always pin to a specific version (`@3.1114.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-kms/blob/refs/tags/3.1113.0/LICENSE
+https://github.com/cloud-sdk-builds/client-kms/blob/refs/tags/3.1114.0/LICENSE
 ```
 
 ---
